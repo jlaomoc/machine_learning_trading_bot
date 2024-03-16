@@ -1,7 +1,8 @@
 # Machine Learning Trading Bot
 
 ### Purpose
-In this challenge I was assume the role of a finanical adviors at one of the top 5 finanical advisory firms in the world. My goal is to enhance the exisiting trading signals by implement an algorithmic trading strategy that uses machine learning to automate the trade decisions.Adjust the input parameters to optimise the trading algorithm and train a new machine learning model and compare its performance to that of a baseline model. I will go about this by establishing a baseline performance and tune the basline trading Algorithm.
+In this challenge I was assume the role of a finanical adviors at one of the top 5 finanical advisory firms in the world. My goal is to enhance the exisiting trading signals by implementing an algorithmic trading strategy that uses machine learning to automate the trade decisions. Adjust the input parameters to optimise the trading algorithm and train a new machine learning model and compare its performance to that of a baseline model. I will go about this by establishing a baseline performance using SVM and tune the basline trading Algorithm by adjusting the Time Peroid and Rolling Windows. Lastly I will use Linear Regression Model to see if I can enhance my model predictions. 
+
 
 ### Report Findings
 
@@ -32,27 +33,14 @@ In conclusion the model did a great job predicting the returns. Regardless of th
 ![Step 3 Classfication Report](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/Ste%203%20CR.jpg?raw=true)
 ![Step Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/Step%203%20Plot.jpg?raw=true)
 
-
-    
-#### Evalutae a New Machine Learning Classifer
-Using OG parameters and apply them to the performance of a second machine learning model
-
-- Choosing: AdaBoost, DecisionTreeClassifer LogisticRegression
-
-Backtest the new model to evaluate its performance. Save a PNG image of the cumulative product of the actual returns vs. the strategy returns for this updated trading algorithm, and write your conclusions in your README.md file. Answer the following questions: Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
-
-#### Create an Evaluation Report
-In the previous sections, you updated your README.md file with your conclusions. To finish this section, add a summary evaluation report at the end of the README.md file. For this report, express your final conclusions and analysis. Support your findings by using the PNG images that you created.
-
+In conclusion with the lack of time on myside I was not able to choose better parameters and tune my existing model to see produce better results.
 
 ### Report Findings
 
 ![LRM Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/LRM%20Plot.jpg?raw=true)
 ![LR Classfication Report](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/Logistic%20Regression%20Classifcation%20Report%20.jpg?raw=true)
 
-
-
-- Comparing the performance of the machine learning models based on trading predictions that each makes and the resulting cumulative strategy returns. 
+In conclusion I found using the Linear Regression model produced a better outcome in predictings earnings when buying and selling. My accurary rate lowered to 52% compared to the original model of 54%, the recall for went up to 33% and buy went down to 66%. The classification Report indicates the model performance can do better in terms of prediciting selling or buying but the plot displays a better return when using Linear Regression opposed from SVM model. 
 
 
 

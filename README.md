@@ -7,8 +7,8 @@ In this challenge I was assume the role of a finanical adviors at one of the top
 
 #### Comparing SVM Model to predict Cumulative Returns:
 ![SVM Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/SVM%20Plot.jpg?raw=true)
-![SVM DF](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/SVM%20DF.jpg?raw=true)
-![SVM Classification](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/SVM%20Classification%20Report.jpg?raw=true)
+![SVM DF](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/SVM%20DF.jpg?raw=true)
+![SVM Classification](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/SVM%20Classification%20Report.jpg?raw=true)
 
 The provides SVM provided a 54% accuracy score but a high recall 91% when buying and a low recall 0.08% when selling. Which indicated the model is preforms extremly well when determining when to enter a position.
 
@@ -19,18 +19,18 @@ In conclusion the model did a great job predicting the returns. Regardless of th
 
 #### Adjusting the Time Peroid to 6 Months
 
-![6 Months Classfication Report](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/CF%206%20Months.jpg?raw=true)
-![6 Months Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/6%20Months%20Plot.jpg?raw=true)
+![6 Months Classfication Report](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/CF%206%20Months.jpg?raw=true)
+![6 Months Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/6%20Months%20Plot.jpg?raw=true)
 
 
 #### Adjusting the Rolling Windows
 
-![RW Classfication Report](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Step%202%20CF.jpg?raw=true)
-![RW Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/step%202%20plot.jpg?raw=true)
+![RW Classfication Report](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/Step%202%20CF.jpg?raw=true)
+![RW Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/step%202%20plot.jpg?raw=true)
 
 ### Choosing Best Parameters
-![Step 3 Classfication Report](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Ste%203%20CR.jpg?raw=true)
-![Step Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Step%203%20Plot.jpg?raw=true)
+![Step 3 Classfication Report](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/Ste%203%20CR.jpg?raw=true)
+![Step Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/Step%203%20Plot.jpg?raw=true)
 
 
     
@@ -47,8 +47,8 @@ In the previous sections, you updated your README.md file with your conclusions.
 
 ### Report Findings
 
-![LRM Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/LRM%20Plot.jpg?raw=true)
-![LR Classfication Report](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Logistic%20Regression%20Classifcation%20Report%20.jpg?raw=true)
+![LRM Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/LRM%20Plot.jpg?raw=true)
+![LR Classfication Report](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/Logistic%20Regression%20Classifcation%20Report%20.jpg?raw=true)
 
 
 

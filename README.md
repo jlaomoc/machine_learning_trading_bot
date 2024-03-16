@@ -6,7 +6,7 @@ In this challenge I was assume the role of a finanical adviors at one of the top
 ### Report Findings
 
 #### Comparing SVM Model to predict Cumulative Returns:
-![SVM Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/SVM%20Plot.jpg?raw=true)
+![SVM Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/SVM%20Plot.jpg?raw=true)
 ![SVM DF](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/SVM%20DF.jpg?raw=true)
 ![SVM Classification](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/SVM%20Classification%20Report.jpg?raw=true)
 

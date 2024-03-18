@@ -33,7 +33,7 @@ In conclusion the model did a great job predicting the returns. Regardless of th
 ![Step 3 Classfication Report](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/Ste%203%20CR.jpg?raw=true)
 ![Step Plot](https://github.com/jlaomoc/machine_learning_trading_bot/blob/main/Photos/Step%203%20Plot.jpg?raw=true)
 
-In conclusion with the lack of time on myside I was not able to choose better parameters and tune my existing model to see produce better results.
+In conclusion I was not able to find the best parameters to result in a better training stragey. SVM is not a good model to choose when dealing with time series problems because you lose a lot of important technical strategies, information like momentum because training the data with a SVM model uses shuffling randomizing the data losing the important trends within the features. 
 
 ### Report Findings
 
